@@ -1,0 +1,23 @@
+.router__link {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+.router__link:visited, .router__link:link {
+    color: #334953;
+}
+.router__link:hover {
+    color: #039be5;
+    background-color: #CFD8DC;
+}
+.router__link.active {
+    color: #039be5;
+}
+
+.router__link_active {
+    background-color: gold;
+}
